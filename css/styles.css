@@ -1,1 +1,72 @@
-/*header*/
+/* colors */
+:root {
+    /* bg colors */
+    --header-bg: #FFFFFF;
+    --primary-bg: #2F303A;
+    --secondary-bg: #E5E5E5;
+    --selection-bg: #F5F4FA;
+    /* text colors */
+    --accent-text: #2196F3;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --footer-nav-text: rgba(255, 255, 255, 0.6);
+    /* button colors */
+    --filter-buttons: #F5F4FA; 
+}
+
+/* header */
+.header-nav {
+        list-style: none;
+        
+}
+
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: #000000; 
+}
+
+.logo-part {
+    color: var(--accent-text);
+}
+
+.nav-options {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text); 
+    text-decoration: none;
+}
+
+.nav-options:hover,
+.nav-options:focus {
+    color: var(--accent-text); 
+}
+
+.header-contacts {
+    list-style: none;
+}
+
+.header-contacts-info {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text); 
+    text-decoration: none; 
+}
+
+.header-contacts-info:hover,
+.header-contacts-info:focus {
+    color: var(--accent-text);
+}
