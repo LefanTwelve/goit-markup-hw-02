@@ -14,6 +14,13 @@
     --filter-buttons: #F5F4FA; 
 }
 
+body {
+    /* fonts */
+    font-family: roboto, sans-serif; 
+    /* colors */
+    color: var(--primary-text); 
+}
+
 /* header */
 .header-nav {
         list-style: none;
@@ -69,6 +76,48 @@ font-family: 'Roboto';
 .header-contacts-info:hover,
 .header-contacts-info:focus {
     color: var(--accent-text);
+}
+
+/* bg */
+.bg-section-title {
+    /* font */
+    width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        /* color */
+        color: #FFFFFF;
+}
+
+.bg-section-button {
+    /* font */
+    width: 136px;
+        height: 30px;
+        left: 732px;
+        top: 440px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        /* color */
+        color: #FFFFFF;
+        /* button box */
+        width: 200px;
+            height: 50px;
+            left: 700px;
+            top: 430px;
+        /* color */
+            background: var(--accent-text);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
 }
 
 /* portfolio */
