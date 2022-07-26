@@ -71,6 +71,10 @@ body {
     text-decoration: none;
 }
 
+.nav-current {
+    color: var(--accent-text); 
+}
+
 .nav-options:hover,
 .nav-options:focus {
     color: var(--accent-text); 
@@ -254,7 +258,12 @@ font-family: 'Raleway';
 
 .selection-button:hover,
 .selection-button:focus {
-    color: #FFFFFF; 
+    color: var(--header-bg);
+    background-color: var(--accent-text);
+}
+
+.active-button {
+    color: var(--header-bg);
     background-color: var(--accent-text);
 }
 
